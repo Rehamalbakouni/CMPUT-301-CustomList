@@ -42,5 +42,10 @@ public class CustomListTest {
     }
 
 
+    @Test
+    public void testCountCities() {
+        assertEquals(1, list.countCities());
+    }
+
 
 }
